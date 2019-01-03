@@ -18,7 +18,7 @@ $(document).ready(function(){
     autoplay: true,
     autoplaySpeed: 1000,
     speed: 300,
-    slidesToShow: 1.5,
+    slidesToShow: 1.8,
     adaptiveHeight: true, adaptiveWidth: true  });
   });
   
