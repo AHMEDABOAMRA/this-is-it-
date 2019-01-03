@@ -1,5 +1,6 @@
 .navbar{
 width: 100%;
+min-width:700px ;
   background: #ffffff;
 padding: 0px;
 height: 60px;
@@ -423,7 +424,7 @@ color: white;
                                     }
          
              .lk{
-            width: 100%;
+            width: 70%;
             height: 400px;
                     
               margin-top: 8rem;
@@ -543,12 +544,26 @@ color: gray;
          }.in h9:hover{
 color: gray;       }.in h7:hover{
 color: grey;   }
-@media only screen and (min-width: 320px) and (max-width: 768px){
- 
+@media only screen and (min-width: 250px) and (max-width: 768px){
+  .navbar{
+    width: 95%;
+    min-width:800.5px ;
+      background: white;
+    padding: 0px;
+    height: 60px;
+    }
+    
+    .lk{
+      width: 60%;
+      height: 400px;
+              
+        margin-top: 8rem;
+             }
+    
   .banner{
     width: 500px;
     height: 600px;
-    min-width: 800px;
+    min-width: 800.5px;
  
     background-image: url('5.jpg');
     background-size: cover;
@@ -569,7 +584,7 @@ color: grey;   }
             }.banner h1{
              font-size: 5rem;
              margin-left: 10rem;
-
+background-color: white;
             
                       }.banner .op{
       position: relative;
@@ -583,21 +598,22 @@ color: grey;   }
                 grid-template-columns:1fr  ;
                 grid-gap: 1rem;
                 padding: 1rem; 
-            min-width: 800px;
+                min-width: 800.5px;
                 height: 2500px;
 
                      }   .brand {
                       position: relative;
                       top: 5rem;
                       width: 800px;
-                      background-color: rgba(248, 248, 248, 0.712);
+                      background-color: white;
                       height: 300px;
                       display: grid;
                       grid-template-columns: 1fr 1fr 1fr;
                       grid-gap: 1rem;
                       padding: 1rem;
                   } .greed {
-                  
+                    min-width: 800.5px;
+
                     width: 800px;
                   
                 }   .item .sfr p{
@@ -615,9 +631,9 @@ color: grey;   }
                  margin-top: 5rem;
                  
                  }.slickSlider{
-                       width: 800px;
-                        min-width: 500px;
-                       
+                       width: 760px;
+                       min-width: 400.5px;
+                       background-color: white;
                             }
                              .nav-link{
                               display: none;
