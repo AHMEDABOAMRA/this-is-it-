@@ -361,7 +361,7 @@ color: white;
       margin-top: 5rem;
       
       }.slickSlider{
-            width: 80%;
+            width: 100%;
               margin: auto;
               height: 800px;
              
@@ -543,85 +543,176 @@ color: gray;
          }.in h9:hover{
 color: gray;       }.in h7:hover{
 color: grey;   }
-@media only screen and (min-width: 320px) and (max-width: 1024px){
-  .in img{
-width: 20%;       }
-  .greed{
-    width: 950px;
-    font-size: 3rem;
- grid-template-columns: 70% 1fr;
-}
-  .banners{
-    width: 900px;
-    background-size:cover; 
-    
-            }  .banners .op{
-             font-size: 4rem;
-              
-                      } .banner .op{
-                        font-size: 2rem;
-                         
-                                 }.banner h1{
-                                  font-size: 5rem;
-                                   
-                                           }.banners h3{
-                      font-size: 4rem;
-position: relative;
-right: 51rem;
-                    }   .slickSlider{
-            
-                      width: 900px;
-                    }
+@media only screen and (min-width: 320px) and (max-width: 768px){
+ 
   .banner{
-    width: 100%;
+    width: 500px;
+    height: 600px;
+    min-width: 800px;
+ 
+    background-image: url('5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   
-          } .vc{
-            position: relative;
-            bottom: 8rem;
-            left: 50rem;
-            display: none;
-}
+  
+          } .banners{
+            width: 500px;
+            height: 600px;
+            min-width: 800px;
+         
+          
+                  }  .banner h4{
+    font-size: 6rem;
+    margin-left: 10rem;
+  
+  
+            }.banner h1{
+             font-size: 5rem;
+             margin-left: 10rem;
 
+            
+                      }.banner .op{
+      position: relative;
+        font-size: 3rem;
+        left: 33rem;
 
-.three{
-display: grid;
-grid-template-columns:1fr ;
-font-size: 2rem;
-height: 2800px;
-width: 900px;
-} .brand {
-  width: 950px;
-  display: grid;
-      grid-template-columns:1fr 1fr 1fr; 
-  } 
-  .three h1{
-   font-size: 9rem;
+  
+              }    .three{
+                width: 100%;
+                display: grid;
+                grid-template-columns:1fr  ;
+                grid-gap: 1rem;
+                padding: 1rem; 
+            min-width: 800px;
+                height: 2500px;
 
-         }  
-         .nav-link{
-position: relative;
-bottom: 7rem;
-left: 7rem;
-font-size: 3rem;                
-         }  .navbar{
-          width: 950px;
-        } 
-         .item .sfr p{
-          position: relative;
-          color: black;
-          text-align: left;
-          font-size: 3rem;
-              
-              }
-              .item .sfr h3{
-                position: relative;
-                text-align: left;
-                font-size: 4rem;
-                color: black;
-                    
-                    } .item .sfr{
-                      width: 100%;
-                         
-                          }
-                          
+                     }   .brand {
+                      position: relative;
+                      top: 5rem;
+                      width: 800px;
+                      background-color: rgba(248, 248, 248, 0.712);
+                      height: 300px;
+                      display: grid;
+                      grid-template-columns: 1fr 1fr 1fr;
+                      grid-gap: 1rem;
+                      padding: 1rem;
+                  } .greed {
+                  
+                    width: 800px;
+                  
+                }   .item .sfr p{
+                  position: relative;
+                  color: black;
+                  bottom: 135%;
+                  text-align: left;
+                  font-size: 3rem;
+                      
+                      }
+                .mainSlider{
+                  z-index: 1000;
+                 height: 800px;
+                             background:white;
+                 margin-top: 5rem;
+                 
+                 }.slickSlider{
+                       width: 800px;
+                        min-width: 500px;
+                       
+                            }
+                             .nav-link{
+                              display: none;
+                                   }.vc{
+                                    display: none;
+                                    opacity: 0;
+                                         }
         }
+        @media only screen and (min-width: 1024px) and (max-width: 1300px){
+ 
+          .banner{
+            width: 100%;
+            height: 600px;
+            min-width: 800px;
+         
+            background-image: url('5.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+          
+          
+                  } .banners{
+                    width: 100%;
+                    height: 600px;
+                    min-width: 800px;
+                 
+                  
+                          }  .banner h4{
+            font-size: 6rem;
+            margin-left: 10rem;
+          
+          
+                    }.banner h1{
+                     font-size: 5rem;
+                     margin-left: 10rem;
+        
+                    
+                              }.banner .op{
+              position: relative;
+                font-size: 3rem;
+                left: 45rem;
+        
+          
+                      }    .three{
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns:1fr  ;
+                        grid-gap: 1rem;
+                        padding: 1rem; 
+                    min-width: 800px;
+                        height: 3000px;
+        
+                             }   .brand {
+                              position: relative;
+                              top: 5rem;
+                              width: 100%;
+                              background-color: rgba(248, 248, 248, 0.712);
+                              height: 300px;
+                              display: grid;
+                              grid-template-columns: 1fr 1fr 1fr;
+                              grid-gap: 1rem;
+                              padding: 1rem;
+                          } .greed {
+                          
+                            width: 100%;
+                          
+                        }   .item .sfr p{
+                          position: relative;
+                          color: black;
+                          bottom: 135%;
+                          text-align: left;
+                          font-size: 3rem;
+                              
+                              }
+                        .mainSlider{
+                          z-index: 1000;
+                         height: 800px;
+                                     background:white;
+                         margin-top: 5rem;
+                         
+                         }.slickSlider{
+                               width: 100%;
+                                min-width: 500px;
+                               
+                                    }
+                                     .nav-link{
+
+margin-left: 5rem;             
+                              }.vc{
+                                            display: none;
+                                            opacity: 0;
+                                                 }
+                                                 .navbar{
+                                                 width: 100%;
+                                                       } .navbar-brand{
+                                                         position: relative;
+left: 6rem;                                                              }
+                }
+                
