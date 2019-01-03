@@ -135,7 +135,7 @@ color: black;
      position: fixed;
      top: 0;
      bottom: 0;
-     right:  -740px;
+     right:  -640px;
      z-index: 1500;
      transition: all ease-in-out 200ms;
      -webkit-transition: all ease-in-out 200ms;
