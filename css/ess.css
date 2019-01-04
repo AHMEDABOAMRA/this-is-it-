@@ -586,7 +586,7 @@ color: grey;   }
                          
                           
                                   }.banners .op{
-                                    left: 14rem;
+                                    left: 30%;
                                     position: relative;
                                             }.banner h4{
     font-size: 6rem;
@@ -601,7 +601,7 @@ background-color: white;
                       }.banner .op{
       position: relative;
         font-size: 2rem;
-        left: 23rem;
+        left:32%;
 
   
               }    .three{
