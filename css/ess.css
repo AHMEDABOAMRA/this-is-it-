@@ -1,6 +1,5 @@
 .navbar{
 width: 100%;
-min-width:700px ;
   background: #ffffff;
 padding: 0px;
 height: 60px;
@@ -25,7 +24,7 @@ z-index: 1200;
   grid-template-columns:  1fr 1fr;
   grid-gap: 1rem;
   width: 20%;
-  min-width: 20%;  height: 60px;
+   height: 60px;
 
 }
 
@@ -220,8 +219,7 @@ margin-left: 1rem;
         .banner{
   width: 100%;
   height: 600px;
-  max-width: 100%;
-  min-width: 800px;
+ 
   background-image: url('5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -315,11 +313,19 @@ grid-gap: 1rem;
 padding: 1rem; 
 
 
-     }       .three .bg1,.bg2,.bg3{
-width: 100%;
-height: 60%;
-
      }       .three .bg1{
+width: 100%;
+height: 50%;
+
+     }      .three .bg2{
+      width: 100%;
+      height: 50%;
+      
+           }     .three .bg3{
+            width: 100%;
+            height: 50%;
+            
+                 }      .three .bg1{
       background-size: cover;
       background-repeat: no-repeat;
 background-image: url('bg1.jpg');
@@ -544,26 +550,21 @@ color: gray;
          }.in h9:hover{
 color: gray;       }.in h7:hover{
 color: grey;   }
-@media only screen and (min-width: 250px) and (max-width: 768px){
+@media only screen and (min-width: 150px) and (max-width: 1024px){
   .navbar{
-    width: 95%;
-    min-width:800.5px ;
-      background: white;
-    padding: 0px;
-    height: 60px;
+    
     }
     
     .lk{
-      width: 60%;
-      height: 400px;
+      width: 70%;
+      height: 300px;
               
         margin-top: 8rem;
              }
     
   .banner{
-    width: 500px;
+    width: 100%;
     height: 600px;
-    min-width: 800.5px;
  
     background-image: url('5.jpg');
     background-size: cover;
@@ -571,79 +572,101 @@ color: grey;   }
   
   
           } .banners{
-            width: 500px;
-            height: 600px;
-            min-width: 800px;
+            width: 100%;
+                        height: 600px;
          
           
-                  }  .banner h4{
+                  }  .banners h3{
+                   font-size: 2rem;
+                   position: relative;
+                   right: 13rem;
+                  
+                          }.banners h2{
+                          font-size: 3rem;
+                         
+                          
+                                  }.banners .op{
+                                    left: 14rem;
+                                    position: relative;
+                                            }.banner h4{
     font-size: 6rem;
-    margin-left: 10rem;
+    margin-left: 3rem;
   
   
             }.banner h1{
              font-size: 5rem;
-             margin-left: 10rem;
+             margin-left:3rem;
 background-color: white;
             
                       }.banner .op{
       position: relative;
-        font-size: 3rem;
-        left: 33rem;
+        font-size: 2rem;
+        left: 23rem;
 
   
               }    .three{
-                width: 100%;
-                display: grid;
-                grid-template-columns:1fr  ;
+                width: 100%;                display: grid;
+                grid-template-columns:1fr;
                 grid-gap: 1rem;
                 padding: 1rem; 
-                min-width: 800.5px;
-                height: 2500px;
-
-                     }   .brand {
+                background-color: white;
+                height: 1900px;
+                     }   .three .bg1{
+                      width: 100%;
+                      height: 60%;
+                      
+                           }      .three .bg2{
+                            width: 100%;
+                            height: 60%;
+                            
+                                 }     .three .bg3{
+                                  width: 100%;
+                                  height: 60%;
+                                  
+                                       }     .three .bg1 h1{
+                     color: #000;
+                           } .three .bg2 h1{
+                            color: #000;
+                                  }.three .bg3 h1{
+                                    color: #000;
+                                          }  .brand {
                       position: relative;
                       top: 5rem;
-                      width: 800px;
-                      background-color: white;
+                      width: 100%;                      background-color: white;
                       height: 300px;
                       display: grid;
-                      grid-template-columns: 1fr 1fr 1fr;
+                      grid-template-columns: 1fr 1fr ;
                       grid-gap: 1rem;
                       padding: 1rem;
                   } .greed {
-                    min-width: 800.5px;
-
-                    width: 800px;
-                  
+                  width: 100%;               
                 }   .item .sfr p{
                   position: relative;
                   color: black;
                   bottom: 135%;
                   text-align: left;
-                  font-size: 3rem;
+                  font-size: 2rem;
                       
                       }
                 .mainSlider{
                   z-index: 1000;
                  height: 800px;
                              background:white;
-                 margin-top: 5rem;
                  
                  }.slickSlider{
-                       width: 760px;
-                       min-width: 400.5px;
+                  width:300px;                       min-width: 200px;
                        background-color: white;
                             }
                              .nav-link{
                               display: none;
-                                   }.vc{
-                                    display: none;
-                                    opacity: 0;
+                                   }.vc .ser{
+                                     display: none;
                                          }
         }
-        @media only screen and (min-width: 1024px) and (max-width: 1300px){
- 
+        @media only screen and (min-width: px) and (max-width: 1300px){
+          .vc .ser{
+            display: none;
+                }
           .banner{
             width: 100%;
             height: 600px;
@@ -720,7 +743,9 @@ background-color: white;
                                     }
                                      .nav-link{
 
-margin-left: 5rem;             
+margin-left: 5rem;      
+display: none;   
+opacity: 0;    
                               }.vc{
                                             display: none;
                                             opacity: 0;
