@@ -313,31 +313,28 @@ grid-gap: 1rem;
 padding: 1rem; 
 
 
-     }       .three .bg1{
+     }       .three .bg1 img{
 width: 100%;
 height: 50%;
 
-     }      .three .bg2{
+     }      .three .bg2 img{
       width: 100%;
       height: 50%;
       
-           }     .three .bg3{
+           }     .three .bg3 img{
             width: 100%;
             height: 50%;
             
                  }      .three .bg1{
       background-size: cover;
       background-repeat: no-repeat;
-background-image: url('bg1.jpg');
 
      }                         .three .bg2{ background-size: cover;
       background-repeat: no-repeat;
-background-image: url('bg2.jpg');
 
 
      }                         .three .bg3{ background-size: cover;
       background-repeat: no-repeat;
-background-image: url('bg3.jpg');
 }    
  .three .bg1 h1:hover{
 color: blue;
@@ -349,14 +346,14 @@ color: blue;
      }       .three .bg3 h1:hover{
 color: blue;
      }.three .bg1 h1{
-color: white;
+color: black;
 
 
      }.three  .bg2 h1{
-color: white;
+color: black;
 
      }       .three .bg3 h1{
-color: white;
+color: black;
      }  
       
  
@@ -602,24 +599,27 @@ background-color: white;
 
   
               }    .three{
-                width: 100%;                display: grid;
-                grid-template-columns:1fr  ;
-                grid-gap: 1rem;
+                width: 100%; 
+                 display: grid;
+                grid-template-columns: 1fr;
                 padding: 1rem; 
+                grid-gap: 1rem;
                 background-color: white;
-                height: 1900px;
-                     }   .three .bg1{
-                      width: 100%;
+                height: 1800px;
+                     }   .three .bg1 img{
+                      width: 80%;
                       height: 40%;
-                      
-                           }      .three .bg2{
-                            width: 100%;
+                      margin-left: 4rem;
+                           }      .three .bg2 img{
+                            width: 80%;
                             height: 40%;
-                            
-                                 }     .three .bg3{
-                                  width: 100%;
+                            margin-left: 4rem;
+
+                                 }     .three .bg3 img{
+                                  width: 80%;
                                   height: 40%;
-                                  
+                                  margin-left: 4rem;
+
                                        }     .three .bg1 h1{
                                          font-size: 2rem;
                      color: white;
